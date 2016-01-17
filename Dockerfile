@@ -14,4 +14,4 @@ RUN apt-get update
 # install mosquitto borker & command line clients
 RUN apt-get install -y mosquitto mosquitto-clients
 
-CMD mosquitto -v &
+# CMD mosquitto -v &
