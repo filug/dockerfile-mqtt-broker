@@ -1,9 +1,9 @@
 # MQTT broker
 
-MAINTAINER Piotr L. Figlarek <piotr.figlarek@gmail.com>
-
 # use Debian distro
 FROM debian:jessie
+
+MAINTAINER Piotr L. Figlarek <piotr.figlarek@gmail.com>
 
 # change hostname
 ENV HOSTNAME mqqt-broker
